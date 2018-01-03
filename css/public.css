@@ -1,0 +1,27 @@
+﻿
+/*reset*/
+article,aside,dialog,footer,header,section,footer,nav,figure,menu{display:block}
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, figure, section, legend, textarea, p, blockquote, th, td, input, select, textarea, button { margin: 0; padding: 0 }
+fieldset, img { border: 0 none }
+h1,h2,h3,h4,h5,h6{font-weight: normal;}
+table{border-collapse:collapse;border-spacing:0}
+ul,ol,dd,dt,dl{list-style-type:none;}
+a{text-decoration: none;}
+
+img{border:none;}
+i,em{font-style:normal;}
+:focus{outline: none}
+select{ background: none }
+
+
+/*原子类*/
+.clear { clear: both; }
+.clear:after { display: block; clear: both; visibility: hidden; height: 0; overflow: hidden; content: "."; }
+.fl { float: left; }
+.fr { float: right; }
+.mb10{margin-bottom: 10px;}
+.mt10{margin-top: 10px;}
+/*placeholder css*/
+::-moz-placeholder{ font-family: "Microsoft YaHei"}              
+/*::-webkit-input-placeholder{ font-family: "Microsoft YaHei"}    
+:-ms-input-placeholder{ font-family: "Microsoft YaHei"}*/
