@@ -1,0 +1,83 @@
+header{
+  width: 100%;
+  height: 0.45rem;
+  background-color: #fff;
+    .head{
+      width: 89.3333%;
+      margin: 0 auto;
+        i{
+          font-size: 17px;
+          float: left;
+          line-height: 0.45rem;
+          color: #666;
+          font-weight: 900;
+        }
+      span{
+        width: 1.07rem;
+        font-size: 17px;
+        line-height: 0.45rem;
+        margin: 0 auto;
+        color: #999;
+        text-align: center;
+      }
+    }
+  .phoneMistake{
+    width: 100%;
+    height: 0.45rem;
+    background-color: #ff3153;
+    display: none;
+    span{
+      font-size:16px;
+      display:block;
+      color: white;
+      line-height: 0.45rem;
+      margin: 0 auto;
+      text-align: center;
+    }
+  }
+
+}
+
+
+
+
+.inform{
+  width: 89.3333%;
+  margin: 0.99rem auto 0.5rem auto;
+  box-sizing: border-box;
+    form{
+      height: 1.75rem;
+      input{
+        font-size: 16px;
+        color: #000;
+        width: 100%;
+        //border-bottom: 1px solid #dfdfdf;
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        padding-bottom: 0.1rem;
+        caret-color:#508cee;//光标颜色
+        display: block;
+        margin-bottom: 0.3rem;
+      }
+      input::-webkit-input-placeholder{
+      color: #b0b0b0;
+      }
+      #RegBtn{
+        height: 0.5rem;
+        background-color: #ccc;
+        color: #fff;
+        line-height: 0.5rem;
+        border: none;
+        margin-top: 0.28rem;
+      }
+    }
+    p{
+      font-size: 12px;
+      color: #ccc;
+        a{
+            display: inline;
+            color: #508cee;
+        }
+    }
+}
