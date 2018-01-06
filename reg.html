@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport"content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>注册</title>
+    <link rel="stylesheet" type="text/css" href="css/public.css">
+    <link rel="stylesheet" type="text/css" href="css/reg.css">
+    <link rel="stylesheet" type="text/css" href="//at.alicdn.com/t/font_529694_nury3c1wl1uoko6r.css">
+</head>
+<body>
+<!--header-->
+<header>
+    <div class="head" id="headId">
+        <a href="#"><i class="iconfont icon-xiangzuojiankuohao"></i></a>
+        <span>手机快速注册</span>
+   </div>
+    <!--表单验证错误时-->
+    <div class="phoneMistake" id="phoneMis">
+        <span>请输入正确的手机号码</span>
+    </div>
+</header>
+
+
+
+<!--表单-->
+<div class="inform">
+    <form>
+        <input type="txet" placeholder="请输入手机号码" id="phoneNum" name="phone">
+        <input type="password" placeholder="请输入密码" id="passNum" name="pass">
+        <input type="submit" value="注册" id="RegBtn">
+    </form>
+    <p>已阅读并同意<a href="#">《京东金融用户注册协议》</a> <a href="#">《京东金融隐私政策》</a></p>
+</div>
+
+</body>
+
+</html>
+<script type="text/javascript">
+    function $(str){
+        if(str.charAt(0)=="#"){
+            return document.getElementById(str.substring(1));
+        }else if(str.charAt(0)=="@"){
+            return document.getElementsByName(str.substring(1));
+        }
+    }
+   $("#phoneNum").onblur=function(){
+        var reg = /^1[34578]\d{9}$/;
+        var phoneStr=$("#phoneNum").value;
+        if(reg.test(phoneStr)){
+            $("#phoneMis").style.display="none";
+            $("#headId").style.display="block";
+
+        }else{
+            $("#phoneMis").style.top="0";
+            setTimeout(function () {
+                $("#phoneMis").style.top="-0.45rem";
+            },2500)
+
+        }
+    }
+    $("#passNum").onkeyup=function(){
+
+       var passStr=$("#passNum").value;
+       if(passStr.length>=6){
+           $("#RegBtn").style.background="#4d7bfe";
+        }
+        else {
+           $("#RegBtn").style.background="#ccc";
+       }
+    }
+
+
+</script>

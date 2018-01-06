@@ -1,0 +1,134 @@
+
+
+
+header{
+  width: 100%;
+  height: 0.45rem;
+  background-color: #fff;
+  .LoginHeader{
+    width: 89.3333%;
+    margin: 0 auto;
+   i{
+      font-size: 20px;
+      float: left;
+      line-height: 0.45rem;
+      color: #b3b3b3;
+      font-weight: 900;
+    }
+    span{
+      width: 1.07rem;
+      font-size: 17px;
+      line-height: 0.45rem;
+      margin: 0 auto;
+      color: #666666;
+      text-align: center;
+    }
+  }
+}
+
+.PersonHead{
+  width: 89.3333%;
+  height: 1.165rem;
+  margin: 0.2rem auto 0 auto;
+  display: flex;
+  justify-content: center;
+    img{
+      width: 0.695rem;
+      height: 0.66rem;
+    }
+}
+
+.inform{
+  width: 89.3333%;
+  margin: 0 auto 0.5rem auto;
+  box-sizing: border-box;
+  form{
+    height: 1.75rem;
+    input{
+      font-size: 16px;
+      color: #000;
+      width: 100%;
+      //border-bottom: 1px solid #dfdfdf;
+      border-top: none;
+      border-right: none;
+      border-left: none;
+      padding-bottom: 0.1rem;
+      caret-color:#508cee;//光标颜色
+      display: block;
+      margin-bottom: 0.3rem;
+    }
+    input::-webkit-input-placeholder{
+      color: #b0b0b0;
+    }
+    .input_block{
+      position: relative;
+        img{
+          display: block;
+          width: 0.15rem;
+          height: 0.085rem;
+          position: absolute;
+          right: 0.075rem;
+        }
+    }
+    #LoginBtn{
+      height: 0.5rem;
+      background-color: #4d7bfe;
+      color: #fff;
+      line-height: 0.5rem;
+      border: none;
+      margin-top: 0.28rem;
+    }
+  }
+}
+
+footer{
+  width: 72.8%;
+  height: 0.74rem;
+  margin: 0 auto;
+  position: relative;
+  position: fixed;
+  bottom: 0;
+  left: 13.6%;
+    .FooterContent{
+      width: 100%;
+      height: 0.44rem;
+      margin-top: 0.3rem;
+      position: absolute;
+      top:-19%;
+        .forget{
+            font-size: 14px;
+            margin: 0 auto;
+            width: 1.33rem;
+            height: 0.12rem;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+              a{
+                float: left;
+                color: #9c9c9c;
+                text-align: center;
+              }
+              span{
+                 color: #ddd;
+                 float: left;
+              }
+        }
+      .loginItem{
+        margin: 0.15rem auto 0 auto;
+        width: 100%;
+        height: 0.13rem;
+        display: flex;
+        justify-content: center;
+        p{
+          font-size: 12px;
+          line-height: 0.13rem;
+          text-align: center;
+          color: #d2d2d2;
+          a{
+            float: right;
+            color: #508cee;
+          }
+        }
+    }
+    }
+}
