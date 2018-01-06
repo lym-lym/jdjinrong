@@ -24,8 +24,10 @@ header{
   .phoneMistake{
     width: 100%;
     height: 0.45rem;
+    position: fixed;
+    top:-0.45rem;
     background-color: #ff3153;
-    display: none;
+    transition:all 1s;
     span{
       font-size:16px;
       display:block;

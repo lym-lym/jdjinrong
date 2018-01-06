@@ -52,8 +52,11 @@
             $("#headId").style.display="block";
 
         }else{
-            $("#phoneMis").style.display="block";
-            $("#headId").style.display="none";
+            $("#phoneMis").style.top="0";
+            setTimeout(function () {
+                $("#phoneMis").style.top="-0.45rem";
+            },2500)
+
         }
     }
     $("#passNum").onkeyup=function(){
