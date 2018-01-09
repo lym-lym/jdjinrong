@@ -1,0 +1,48 @@
+/*
+Error: Invalid GBK character "\xE5"
+        on line 4 of sass/newest.scss
+
+1: html,body,div,p,form,ul,li,ol,dl,dt,dd,table,tr,td,th,hr,h1,h2,h3,h4,h5,h6,img,input{margin:0;padding:0;}
+2: html{font-size: 26.666667vw;height: 100%;}
+3: html,body{height: 100%;}
+4: body{font-family:"微软雅黑",Arial;display: flex;flex-direction: column;}
+5: a{text-decoration:none;display: block;}
+6: span{display: block;}
+7: ul,li{list-style:none;}
+8: img{border:none;display: block;}
+9: i{display: block;}
+
+Backtrace:
+sass/newest.scss:4
+C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.5.3/lib/sass/util.rb:1048:in `rescue in block in find_encoding_error'
+C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.5.3/lib/sass/util.rb:1045:in `block in find_encoding_error'
+C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.5.3/lib/sass/util.rb:1044:in `each'
+C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.5.3/lib/sass/util.rb:1044:in `each_with_index'
+C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.5.3/lib/sass/util.rb:1044:in `find_encoding_error'
+C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.5.3/lib/sass/util.rb:778:in `rescue in check_sass_encoding'
+C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.5.3/lib/sass/util.rb:774:in `check_sass_encoding'
+C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.5.3/lib/sass/engine.rb:444:in `check_encoding!'
+C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.5.3/lib/sass/engine.rb:400:in `_to_tree'
+C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.5.3/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.5.3/lib/sass/engine.rb:307:in `render_with_sourcemap'
+C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.5.3/lib/sass/plugin/compiler.rb:462:in `update_stylesheet'
+C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.5.3/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.5.3/lib/sass/plugin/compiler.rb:209:in `each'
+C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.5.3/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.5.3/lib/sass/plugin/compiler.rb:443:in `on_file_changed'
+C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.5.3/lib/sass/plugin/compiler.rb:320:in `block in watch'
+C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-listen-4.0.0/lib/sass-listen/event/config.rb:23:in `call'
+C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-listen-4.0.0/lib/sass-listen/event/config.rb:23:in `call'
+C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:115:in `_process_changes'
+C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:19:in `block in loop_for'
+C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:15:in `loop'
+C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:15:in `loop_for'
+C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:84:in `_wait_for_changes'
+C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:42:in `block in setup'
+C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-listen-4.0.0/lib/sass-listen/internals/thread_pool.rb:6:in `call'
+C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-listen-4.0.0/lib/sass-listen/internals/thread_pool.rb:6:in `block in add'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid GBK character \"\xE5\"\A         on line 4 of sass/newest.scss\A \A 1: html,body,div,p,form,ul,li,ol,dl,dt,dd,table,tr,td,th,hr,h1,h2,h3,h4,h5,h6,img,input{margin:0;padding:0;}\A 2: html{font-size: 26.666667vw;height: 100%;}\A 3: html,body{height: 100%;}\A 4: body{font-family:\"微软雅黑\",Arial;display: flex;flex-direction: column;}\A 5: a{text-decoration:none;display: block;}\A 6: span{display: block;}\A 7: ul,li{list-style:none;}\A 8: img{border:none;display: block;}\A 9: i{display: block;}"; }

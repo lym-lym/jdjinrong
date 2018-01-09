@@ -1,0 +1,217 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+a {
+  text-decoration: none; }
+
+ul {
+  list-style: none; }
+
+html {
+  font-size: 100px; }
+
+html body {
+  height: 12.4rem; }
+
+.header {
+  width: 100%;
+  height: 0.4rem;
+  border-bottom: 1px solid #999;
+  position: fixed;
+  left: 0rem;
+  background: white; }
+  .header .aId {
+    font-size: 34px; }
+  .header a {
+    font-size: 16px;
+    float: left;
+    line-height: 0.4rem;
+    color: #999; }
+  .header .rig {
+    width: 0.3rem;
+    height: 0.16rem;
+    float: right;
+    padding: 0.15rem;
+    margin-top: -0.06rem; }
+    .header .rig img {
+      width: 0.4rem;
+      height: 0.2rem;
+      float: right;
+      padding: 0.01rem; }
+    .header .rig .spanId {
+      width: 1.3rem;
+      height: 1.275rem;
+      background: white;
+      float: right;
+      padding: 0.1rem;
+      display: none; }
+      .header .rig .spanId .xId {
+        width: 1.32rem;
+        height: 0.33rem;
+        border-bottom: 1px solid #eee; }
+        .header .rig .spanId .xId img {
+          width: 0.2rem;
+          height: 0.2rem;
+          float: left;
+          padding-top: 0.06rem; }
+        .header .rig .spanId .xId a {
+          line-height: 0.33rem;
+          padding-left: 0.25rem; }
+      .header .rig .spanId .xId2 {
+        border-bottom: none; }
+
+.shou {
+  height: 0.4rem;
+  background: white; }
+
+.dizhi {
+  height: 1.5rem;
+  padding: 0.05rem; }
+  .dizhi img {
+    width: 0.2rem;
+    height: 0.2rem;
+    float: right;
+    margin-top: 0.6rem; }
+  .dizhi p {
+    font-size: 18px;
+    padding-top: 0.19rem; }
+
+.dan {
+  height: 0.1rem;
+  display: block; }
+
+.dang {
+  height: 2.2rem;
+  background: #ddd;
+  padding: 0.14rem; }
+  .dang .dang_one {
+    height: 1.9rem;
+    background: white;
+    padding: 0.15rem; }
+    .dang .dang_one h4 {
+      font-size: 17px; }
+      .dang .dang_one h4 span {
+        font-size: 20px;
+        color: red; }
+    .dang .dang_one p {
+      font-size: 18px;
+      padding: 0.02rem;
+      color: #999; }
+
+.two {
+  background: #ddd;
+  padding-left: 0.14rem;
+  padding-right: 0.14rem; }
+  .two .two_yi {
+    height: 1.9rem;
+    background: white;
+    padding: 0.15rem; }
+    .two .two_yi .erId {
+      color: black; }
+    .two .two_yi p {
+      font-size: 18px;
+      padding-top: 0.3rem;
+      color: #999; }
+    .two .two_yi span {
+      font-size: 18px;
+      float: right;
+      color: #999; }
+  .two .read {
+    margin-top: 0.15rem;
+    height: 0.35rem;
+    background: white;
+    padding: 0.15rem; }
+    .two .read h4 {
+      font-size: 18px;
+      line-height: 0.35rem;
+      float: left;
+      padding-right: 0.3rem; }
+    .two .read .textareaId {
+      display: block;
+      height: 0.3rem;
+      border: 1px solid #999; }
+  .two .risk {
+    background: white;
+    margin-top: 0.15rem;
+    padding: 0.15rem; }
+    .two .risk .risk_one h4 {
+      font-size: 16px;
+      line-height: 0.3rem; }
+    .two .risk .risk_one img {
+      width: 0.5rem;
+      height: 0.2rem;
+      float: right;
+      margin-top: -0.246rem; }
+    .two .risk .risk_one p {
+      font-size: 14px;
+      color: #7b7273; }
+  .two .get {
+    height: 0.4rem;
+    background: white;
+    margin-top: 0.15rem;
+    padding: 0.15rem; }
+    .two .get .checkboxId {
+      float: left;
+      width: 0.15rem;
+      height: 0.5rem; }
+    .two .get h4 {
+      float: left;
+      font-size: 20px;
+      line-height: 0.45rem;
+      padding-left: 0.12rem; }
+    .two .get span {
+      font-size: 19px;
+      float: left;
+      padding-top: 0.1rem; }
+  .two .get2 {
+    height: 0.4rem;
+    background: #ddd;
+    margin-top: 0.15rem;
+    padding: 0.15rem; }
+    .two .get2 .checkboxId {
+      float: left;
+      width: 0.15rem;
+      height: 0.5rem; }
+    .two .get2 h4 {
+      float: left;
+      font-size: 20px;
+      line-height: 0.45rem;
+      padding-left: 0.12rem; }
+    .two .get2 span {
+      font-size: 19px;
+      float: left;
+      padding-top: 0.1rem;
+      color: #076aff; }
+
+.foo {
+  height: 0.8rem;
+  background: white;
+  display: block;
+  position: fixed;
+  bottom: 0rem;
+  width: 100%;
+  overflow: hidden; }
+  .foo p {
+    font-size: 12px;
+    padding-left: 1rem;
+    line-height: 0.8rem;
+    float: left; }
+    .foo p span {
+      font-size: 16px;
+      color: #e65567; }
+  .foo .money {
+    width: 0.8rem;
+    height: 0.4rem;
+    background: #e13045;
+    float: right;
+    margin: 0.2rem 0.1rem;
+    border-radius: 0.1rem; }
+    .foo .money a {
+      font-size: 17px;
+      line-height: 0.4rem;
+      display: block;
+      text-align: center;
+      color: white; }
+
+/*# sourceMappingURL=querendingdan.css.map */
