@@ -1,0 +1,146 @@
+html,body,div,p,form,ul,li,ol,dl,dt,dd,table,tr,td,th,hr,h1,h2,h3,h4,h5,h6,img,input{margin:0;padding:0;}
+html{font-size: 26.666667vw;height: 100%;}
+html,body{height: 100%;}
+body{font-family:"微软雅黑",Arial;background: #f8f8f8;display: flex;flex-direction: column;}
+a{text-decoration:none;display: block;}
+span{display: block;}
+ul,li{list-style:none;}
+img{border:none;display: block;}
+i{display: block;font-style: normal;}
+em{}
+.claerfloat{zoom: 1;}
+.claerfloat:after{display: block;clear: both;content: "";visibility: hidden;height: 0;}
+/*==================header ============================*/
+header{display: flex;height: 0.4rem;align-items: center;padding: 0 0.15rem;background: #fff;
+    h2:nth-child(2){margin-left:0.9rem;width: 100%;}
+    a:nth-child(4){margin-left: 0.2rem;}
+    a{
+        img{width: 0.275rem;height: 0.26rem;}
+    }
+    h2{
+        img{width: 1.05rem;height: 0.265rem;}
+    }
+}
+/*==================banner ============================*/
+.content{flex:1;overflow-y: auto;
+    .banner{
+        img{width: 100%;}
+    }
+    .single{background: #fff;padding-bottom: .28rem;margin-bottom: .1rem;padding-left: .1rem;padding-right: .1rem;
+        .single_t{padding: .05rem 0;margin-top: 0.17rem;display: flex;align-items: center;
+            .status{color: #df3349;padding-right: .04rem;padding-left: .04rem;
+            vertical-align: middle;font-size: 12px;border: 1px solid #df3349;}
+            h4{font-size: 14px;font-weight: bold;margin-left: .1rem;}
+        }
+        .ico{display: flex;align-items: center;justify-content: space-between;
+            span:nth-child(1){background: #df3349;color: #fff;font-size: 12px;border-radius: .04rem;padding:0.02rem 0.04rem;}
+            span:nth-child(2){color: #666;font-size: 12px;display: flex;align-items: center;
+                .sign{color: #de2f44;font-size: 12px;}
+                .gotham{color: #de2f44;font-size: 18px;font-weight: bold;}
+            }
+        }
+        >p{color: #666;font-size: 12px;line-height: 0.2rem;margin-top: .06rem;text-align: justify;}
+        //百分比
+        .percent{
+            .line_bg{position: relative; margin-top: .25rem; left: 0;height: .13rem;background-color: #e5e5e5;border-radius: .21rem;
+                .line{height: 100%; position: absolute;top: 0;left: 0;background: linear-gradient(to right,#fc4302 0,#de2f44 100%);border-radius: .21333333rem;
+                    .circle{    top: -100%;width: 0.41rem;height: 0.41rem; position: absolute;right: 0;color: #de2f44;background-color: #fff;border-radius: 50%;border: 3px solid #de2f44;
+                        .gotham{color: #de2f44;font-size: 12px; justify-content: center;line-height: 0.37rem;display: flex;font-weight: bold;
+                            span{font-weight: 100;}
+                        }
+                    }
+                }
+            }
+        }
+        .single_b{background-color: #f5f5f5;margin-top: 0.28rem;
+            li{float: left;width: 33.33333%;position: relative;padding: 0.15rem 0;
+                p{color: #333;font-size: 12px;text-align: center;align-items: center;
+                    .gotham{font-size: 20px;}
+                }
+                .p1{display: flex;justify-content: center;}
+                .border{position: absolute;right: 0;top: 38%;width: 1px;height: .19rem;background-color: #d9d9d9;}
+            }
+        }
+    }
+    //领优惠券
+    .coupon{background: #fff;padding: 0 .1rem .1rem .1rem;border-bottom: 1px solid #e7e7e7;
+        h4{color: #666;font-size: 14px;line-height: 0.33rem;height: 0.33rem;}
+    }
+    //热门档位
+    .stall{background: #fff;margin-bottom: .1rem;
+        h4{border-bottom: 1px solid #e7e7e7;color: #666;padding: 0 .1rem;font-size: 14px;line-height: 0.33rem;height: 0.33rem;}
+        .stall_price{padding: 0 .1rem;display: flex;justify-content: space-between;align-items: center;height: 0.43rem;
+            & p:nth-child(1){font-size: 16px;color: #e42d41;font-weight: bold;
+                small{font-size: 14px;font-weight: 100;}
+            }
+            & p:nth-child(2){font-size: 12px;display: flex;justify-content: space-between;align-items: center;
+                 small{color: #666;font-size: 12px;}
+                img{width: 0.1rem;height: 0.13rem;margin-left: 0.1rem;}
+            }
+        }
+    }
+    .tabBox{background: #fff;
+        .hd{
+            ul{display: flex;border-bottom: 1px solid #e7e7e7;
+                li{position: relative; width: 33.333333%;font-size: 0.2rem;text-align: center;font-weight: 700;color: #333;padding: 0.18rem 0;
+                    &.on{color: #df3349;
+                        i{position: absolute;bottom: 0;background-color: #df3349;left: 30%;height: 2px;width: 0.4rem;}
+                    }
+                }
+            }
+        }
+        .bd{
+            //项目详情
+            .project_details{
+                .introduce{padding: 0 0.1rem;margin-top: 0.15rem;overflow: hidden;margin-bottom: 0.15rem;
+                    >img{width: 0.5rem;height: 0.5rem;border-radius: 50%;float: left;}
+                    .intro_detail{float: right;width: 78%;position: relative;margin-left: 0.25rem;
+                        h4{color: #333;font-size: 0.15rem;display: flex;align-items: center;
+                           img{width: 0.68rem;height: 0.185rem;margin-left: 0.13rem;} 
+                        }
+                        .icon_phone{width: 0.35rem;height: 0.35rem;position: absolute;top: 0;right: 0;}
+                        ul{overflow: hidden;
+                            li{color: #999;font-size: 0.13rem;float: left;padding-left: 0.18rem;}
+                            li:first-child{background: url(../images/zcd_icon-faqi.jpg) no-repeat 0 0.01rem;background-size: 0.15rem 0.155rem;}
+                            li:last-child{margin-left: 0.15rem; background: url(../images/zcd_icon-zhichi.jpg) no-repeat 0 0.01rem;background-size: 0.15rem 0.155rem;}
+                        }
+                        >p{color: #666;font-size: 0.13rem;margin-top: .1rem;}
+                    }
+                }
+                .pro_detail_img{padding: 0 0.1rem;padding-top: 0.13rem;
+                    img{width: 100%;height: 4.15rem;}
+                }
+            }
+            //项目进展
+            .project_progress{
+                .progress_t{color: #333;border-bottom: 1px dashed #999;padding: 0.15rem 0;margin:0.1rem; font-size: 14px;font-weight: bold; display: flex;align-items: center;
+                   img{width: 0.25rem;height: 0.25rem;border-radius: 50%;margin-right: 0.05rem;} 
+                }
+                .list_progress{padding: 0 .1rem;position: relative;overflow: hidden;margin-top: .1rem;
+                    .time{height: 0.24rem;line-height: 0.24rem; background: url(../images/zcd_list_progress-icon1.png) no-repeat left top;font-size: 12px;background-size: 0.25rem 0.24rem;color: #999;padding-left: 0.3rem;}
+                    p{color: #333;font-size: 13px;padding-left: 0.3rem;line-height: 0.2rem;}
+                    img{width: 0.8rem;height: 0.8rem;padding-left: 0.3rem;margin: 0.1rem 0;}
+                }
+                .list_progress:after{position: absolute;border-left: 1px solid #999;width: 1px;content: "";left: 0.22rem;top: .27rem;display: block;height: 100%;}
+            }
+             //实时话题
+            .project_topic{
+                .topicLists{padding: 0.15rem 0.1rem;
+                h3{line-height: 0.16rem;}
+                    .zhiding{background: #84a4d5;border-radius: 4px;color: #fff;font-size: 14px;float: left;padding:0.01rem 0.03rem;}
+                    .name{float: left;font-size: 12px;color: #333;margin-left: 0.1rem;}
+                    .time{float: left;color: #999;font-size: 12px;margin-left: 0.1rem;}
+                    .pinglun{float: right;color: #999;font-size: 12px;padding-left: 0.2rem;background: url(../images/zcd_pinglun.jpg) no-repeat;background-size:0.15rem 0.15rem ;}
+                    p{color: #333;font-size: 13px;line-height: 0.2rem;padding-top: 0.1rem;}
+                }
+            }
+        }
+    }
+}
+//footer
+footer{background: #fff;display: flex;justify-content: space-around;height: 0.7rem;align-items: center;
+    a:nth-child(1){}
+    a:nth-child(2){}
+    a:nth-child(3){}
+    a:nth-child(4){padding: 0.08rem 0.1rem; color: #fff;background-color: #e13045;border-radius: 5px;font-size: 14px;text-align: center;}
+}

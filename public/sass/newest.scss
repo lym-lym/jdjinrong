@@ -11,8 +11,7 @@ i{display: block;}
 .claerfloat:after{display: block;clear: both;content: "";visibility: hidden;height: 0;}
 /*==================header ============================*/
 header{display: flex;height: 0.4rem;align-items: center;padding: 0 0.15rem;
-    a:nth-child(1){float: left;}
-    h2:nth-child(2){margin: 0 auto;}
+    h2:nth-child(2){margin-left:0.9rem;width: 100%;}
     a:nth-child(4){margin-left: 0.2rem;}
     a{
         img{width: 0.275rem;height: 0.26rem;}

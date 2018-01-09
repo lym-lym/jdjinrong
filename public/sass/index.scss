@@ -53,7 +53,7 @@ img{border:none;display: block;}
                     }
                    
                     .item_bottom{margin: 0 0.14rem;display: flex;justify-content: space-around;border-top: 1px solid #f9928b;
-                        a{display: flex;justify-content: space-around;align-items: center;padding: 0.07rem 0.13rem;border-right: 1px solid #f9928b;margin-top: 0.1rem;
+                        a{display: flex;justify-content: space-around;align-items: center;padding: 0.07rem 0.1rem;border-right: 1px solid #f9928b;margin-top: 0.1rem;
                             img{width: 0.135rem;height: 0.145rem;}
                             span{color: #fff;font-size: 12px;margin-left: 0.09rem;height: 0.14rem;line-height: 0.14rem;}
                             &.last{border: none;}
@@ -76,7 +76,7 @@ img{border:none;display: block;}
                     }
                     .f1{
                         .text{
-                            p{margin-top: 0.05rem; font-size: 12px;color: #ff801a;width: 0.9rem;height: 0.2rem;line-height: 0.2rem;background: #ffefe2;}
+                            p{margin-top: 0.05rem; font-size: 12px;color: #ff801a;height: 0.2rem;line-height: 0.2rem;background: #ffefe2;}
                         }
                         .new{display: flex;align-items: center;
                             img{width: 0.25rem;height: 0.3rem;margin-left: 0.1rem;}
