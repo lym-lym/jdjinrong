@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport"content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>众筹订单</title>
+    <link type="text/css" rel="stylesheet" href="css/crowdfundingOrder.css">
+    <link type="text/css"rel="stylesheet" href="css/public.css">
+    <link type="text/css" rel="stylesheet" href="//at.alicdn.com/t/font_529694_1xj29rydv27w4s4i.css">
+</head>
+<body>
+<!--header-->
+<header>
+    <div class="ZC_head">
+        <a href="#"><i class="iconfont icon-xiangzuojiankuohao"></i></a>
+        <span>京东众筹</span>
+    </div>
+</header>
+<div class="mycontent">
+<div class="myInformtion">
+    <img src="images/ZC_headbg.jpg" class="infBg">
+    <div class="nameInform">
+        <div class="headPic">
+            <img src="images/ZC_head.jpg">
+        </div>
+        <div class="nameDetial">
+            <a href="#" name="Phone" id="phoneNum">Name</a>
+            <div class="trueName">
+                <a href="#">去实名认证</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--订单、优惠券-->
+<div class="ident">
+    <div class="ident_01 on" id="orderForm">
+        <a href="#">
+            <img src="images/ZC_ident02.png" id="orderFormPic">
+            <span class="FormWord on">订单</span>
+        </a>
+        <div class="border_right"></div>
+    </div>
+
+    <div class="ident_01" id="discountCoupon">
+        <a href="#">
+            <img src="images/ZC_discount01.png" id="discountCouponPic">
+            <span class="FormWord">优惠券(0)</span>
+        </a>
+        <div class="border_right"></div>
+    </div>
+
+    <div class="ident_01" id="myLaunch">
+        <a href="#">
+            <img src="images/ZC_mybegin01.png" id="myLaunchId">
+            <span  class="FormWord">我发起的</span>
+        </a>
+    </div>
+</div>
+
+<!--内容-->
+<div class="content">
+    <div class="nav">
+        <ul id="navId">
+            <li class="all">全部</li>
+            <li>已支付</li>
+            <li>未支付</li>
+            <li>已删除</li>
+        </ul>
+    </div>
+    <div class="goods">
+        <span class="sign">系统会对超出限额的订单进行全额退款。</span>
+        <div class="goodsInform">
+            <div class="goodsMiddle">
+                <div class="goodsDetail">
+                    <div class="goodsPic">
+                        <img src="images/ZC_goods.jpg">
+                        <div class="goodsWord">
+                            <span class="goosWordSpan">智能语音交互骨传导…</span>
+                            <p>订单编号：18475339023159</p>
+                            <p>  交易状态：支付中</p>
+                            <p>  支持数量：1</p>
+                        </div>
+                    </div>
+                    <div class="price">
+                        <span class="goodsPrice">￥19</span>
+                        <img src="images/ZC_del.png">
+                    </div>
+                </div>
+                <div class="bought">
+                    <input type="submit" id="boughtBtn" value="立即支付">
+                </div>
+            </div>
+        </div>
+
+        <div class="goodsInform">
+            <div class="goodsMiddle">
+                <div class="goodsDetail">
+                    <div class="goodsPic">
+                        <img src="images/ZC_goods.jpg">
+                        <div class="goodsWord">
+                            <span class="goosWordSpan">智能语音交互骨传导…</span>
+                            <p>订单编号：18475339023159</p>
+                            <p>  交易状态：支付中</p>
+                            <p>  支持数量：1</p>
+                        </div>
+                    </div>
+                    <div class="price">
+                        <span class="goodsPrice">￥19</span>
+                        <img src="images/ZC_del.png">
+                    </div>
+                </div>
+                <div class="bought">
+                    <input type="submit" id="boughtBtn" value="立即支付">
+                </div>
+            </div>
+        </div>
+
+        <div class="goodsInform">
+            <div class="goodsMiddle">
+                <div class="goodsDetail">
+                    <div class="goodsPic">
+                        <img src="images/ZC_goods.jpg">
+                        <div class="goodsWord">
+                            <span class="goosWordSpan">智能语音交互骨传导…</span>
+                            <p>订单编号：18475339023159</p>
+                            <p>  交易状态：支付中</p>
+                            <p>  支持数量：1</p>
+                        </div>
+                    </div>
+                    <div class="price">
+                        <span class="goodsPrice">￥19</span>
+                        <img src="images/ZC_del.png">
+                    </div>
+                </div>
+                <div class="bought">
+                    <input type="submit" id="boughtBtn" value="立即支付">
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+</div>
+
+<!--footer-->
+<footer>
+    <a href="javascript">
+        <img src="images/index_footer1.jpg" /><span>首页</span>
+    </a>
+    <a href="javascript">
+        <img src="images/index_footer2.jpg" /><span>精选</span>
+    </a>
+    <a href="javascript">
+        <img src="images/index_footer3.jpg" /><span>服务</span>
+    </a>
+    <a href="javascript">
+        <img src="images/index_footer4.jpg" /><span>我的</span>
+    </a>
+</footer>
+</body>
+</html>
+<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript">
+    $('.ident_01').click(function () {
+     $(this).addClass("on").siblings().removeClass("on");
+    })
+</script>

@@ -1,7 +1,272 @@
+html,body{
+  height: 100%;
+}
 
 header{
+  position: fixed;
+  top: 0;
+  z-index: 100;
   width: 100%;
   height: 0.44rem;
   background-image: url("../images/M_smallBg.jpg");
   background-repeat: repeat-y;
+  background-size:100% 100%;
+    .headFlex{
+      width: 93%;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+       i{
+        font-size: 0.22rem;
+        color: #fff;
+        line-height: 0.44rem;
+         display: block;
+      }
+    }
 }
+
+
+.underHeader{
+  margin-top: 0.33rem;
+  width: 100%;
+  height: 1.13rem;
+  background-image: url("../images/M_smallBg.jpg");
+  background-repeat: repeat-y;
+  background-size:100% 100%;
+    .personName{
+      width: 93%;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+        .headPortrait{
+          width: 1.5rem;
+          height: 1.13rem;
+          position: relative;
+            img{
+              width: 0.56rem;
+              height: 0.56rem;
+              position: absolute;
+              top:0.235rem;
+            }
+            .nameInform{
+              height: 0.42rem;
+              float: right;
+              margin-top: 0.31rem;
+                  #phoneNum{
+                    font-size: 0.14rem;
+                    color: white;
+                    display: block;
+                    padding-left: 0.09rem;
+                  }
+                  .vipCenter{
+                    height: 0.21rem;
+                    background: #fff;
+                    border-radius: 0.1rem;
+                    margin-top: 0.05rem;
+                      a{
+                        display: block;
+                          i{
+                            font-size: 0.16rem;
+                            color: #989cb3;
+                            float: left;
+                            padding: 0.025rem 0.02rem 0 0.02rem;
+                          }
+                          .theWord{
+                            font-size: 0.10rem;
+                            color: #989cb3;
+                            line-height: 0.18rem;
+                            float: right;
+                          }
+                      }
+                  }
+            }
+        }
+        .whiteCredit{
+          width: 0.85rem;
+          width: 1.13rem;
+          position: relative;
+            img{
+              width: 0.85rem;
+              height: 0.79rem;
+              position: absolute;
+              top: 0.11rem;
+            }
+            .circle{
+              width: 0.64rem;
+              height: 0.64rem;
+              border-radius: 50%;
+              background: #fff;
+              position: absolute;
+              top: 0.22rem;
+              left: 0.11rem;
+                .circleWord{
+                  margin-top: 0.13rem;
+                  margin-right: 0.01rem;
+                  h3{
+                    font-size: 0.12rem;
+                    color: #9599aa;
+                    text-align: center;
+
+                  }
+                  .white{
+                    font-size: 0.09rem;
+                    color: #9599aa;
+                    text-align: center;
+                  }
+                }
+
+            }
+        }
+    }
+}
+
+
+
+
+.usual{
+  width: 100%;
+  height: 0.8rem;
+  display: flex;
+  justify-content: space-around;
+  a{
+    float: left;
+    text-align: center;
+    width: 25%;
+    padding-top: 0.17rem;
+    i{
+      font-size: 0.25rem;
+      color: #333;
+
+    }
+    span{
+      color: #666;
+      display: block;
+      font-size: 0.12rem;
+      padding-top: 0.09rem;
+    }
+  }
+}
+
+.line{
+  width: 100%;
+  height: 0.1rem;
+  background: #f5f5f5;
+}
+
+
+.moudle_01{
+  width: 100%;
+    .card{
+      width: 100%;
+      height: 0.495rem;
+        .icon{
+          width: 0.53rem;
+          height: 0.495rem;
+          float: left;
+          display: flex;
+          justify-content: center;
+          .icon-2{
+              font-size: 0.16rem;
+              color: #1a6cf3;
+              line-height: 0.5rem;
+            }
+          .icon-gzhangdan{
+            font-size: 0.16rem;
+            color: #4d7bfe;
+            line-height: 0.5rem;
+          }
+          .icon-zuanshi{
+            font-size: 0.16rem;
+            color: #ffbf17;
+            line-height: 0.5rem;
+          }
+          .icon-money-1{
+            font-size: 0.16rem;
+            color: #dcac6e;
+            line-height: 0.5rem;
+          }
+
+          .icon-baitiao{
+            font-size: 0.16rem;
+            color: #1a6cf3;
+            line-height: 0.5rem;
+          }
+          .icon-baoxian{
+            font-size: 0.16rem;
+            color: #44bf97;
+            line-height: 0.5rem;
+          }
+          .icon-shan{
+            font-size: 0.16rem;
+            color: #1a6cf3;
+            line-height: 0.5rem;
+          }
+
+
+          .icon-xing{
+            font-size: 0.16rem;
+            color: #ffab1f;
+            line-height: 0.5rem;
+          }
+
+          .icon-yanjing{
+            font-size: 0.16rem;
+            color: #ffab1f;
+            line-height: 0.5rem;
+          }
+          .icon-bi1{
+            font-size: 0.16rem;
+            color: #1a6cf3;
+            line-height: 0.5rem;
+          }
+          .icon-bing{
+            font-size: 0.16rem;
+            color: #ec6351;
+            line-height: 0.5rem;
+          }
+          .icon-kefu5{
+            font-size: 0.16rem;
+            color: #1a6cf3;
+            line-height: 0.5rem;
+          }
+        }
+      .word{
+          width: 85.866666%;
+          height: 0.495rem;
+          border-bottom: 1px solid #eee;
+          float: right;
+          display: flex;
+          justify-content: space-between;
+            .word_left{
+              font-size: 0.14rem;
+              color: #333;
+              line-height: 0.495rem;
+            }
+            .word_right{
+              font-size: 0.12rem;
+              color: #999;
+              line-height: 0.495rem;
+              margin-right: 0.16rem;
+               span{
+                 color: #dedede;
+                 display: block;
+                 line-height: 0.495rem;
+                 float: right;
+                 margin-left: 0.06rem;
+               }
+            }
+        }
+    }
+}
+
+
+
+
+footer{display: flex;justify-content: space-between;align-items: center;height: 0.5rem;position: fixed;bottom: 0;width: 100%;background: #fff;
+  a{width: 25%;text-align: center;display: block;
+    img{width: 0.225rem;height: 0.235rem;margin: 0 auto;display: block;}
+    span{font-size: 0.09rem;color: #cccccc;}
+  }
+}
+
+

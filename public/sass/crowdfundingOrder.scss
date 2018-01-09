@@ -1,0 +1,255 @@
+
+html{height: 100%;}
+body{display: flex;flex-direction: column;height: 100%;}
+header{
+  width: 100%;
+  height: 0.44rem;
+  background: #FFF;
+    .ZC_head{
+      width: 89.3333%;
+      margin: 0 auto;
+        i{
+          font-size: 0.18rem;
+          float: left;
+          line-height: 0.44rem;
+          color: #666;
+          font-weight: 900;
+        }
+        span{
+          width: 1.07rem;
+          font-size: 0.15rem;
+          line-height: 0.44rem;
+          margin: 0 auto;
+          color: #666;
+          text-align: center;
+        }
+    }
+}
+.mycontent{flex: 1;overflow-y: auto}
+.myInformtion{
+  width: 100%;
+  height: 1.0rem;
+  position: relative;
+
+   .infBg{
+      width: 100%;
+      height: 1.0rem;
+     display: block;
+   }
+    .nameInform{
+      width: 1.5rem;
+      height: 100%;
+      position: absolute;
+      left: 0.15rem;
+      top: 0rem;
+      padding-top: 0.23rem;
+      display: flex;
+      justify-content: space-between;
+      .headPic{
+        width: 0.55rem;
+        height: 0.55rem;
+        img{
+          width: 0.55rem;
+          height: 0.55rem;
+          border-radius: 50%;
+          display: block;
+        }
+      }
+
+        .nameDetial{
+          width: 0.8rem;
+          height: 0.42rem;
+          float: right;
+          padding-top: 0.08rem;
+            #phoneNum{
+              font-size: 0.14rem;
+              color: #fff;
+            }
+            .trueName{
+                width: 0.72rem;
+                height: 0.18rem;
+                border-radius: 0.05rem;
+                background: #fff;
+                margin-top: 0.09rem;
+                a{
+                  float: left;
+                  font-size: 0.1rem;
+                  color: #e23a4e;
+                  text-align: center;
+                  padding-left: 0.045rem;
+                }
+            }
+        }
+
+    }
+}
+
+
+.ident{
+  width: 100%;
+  height: 0.7rem;
+  display: flex;
+  justify-content: space-around;
+    .ident_01{
+
+      width: 1.25rem;
+      height: 0.7rem;
+      display: flex;
+      justify-content: center;
+      position: relative;
+        a{
+            margin-top: 0.12rem;
+            img{
+              width: 0.19rem;
+              height: 0.17rem;
+              display: block;
+              margin: 0 auto;
+            }
+            span{
+              font-size: 0.13rem;
+              color: #808080;
+              padding-top: 0.1rem;
+            }
+
+        }
+        .border_right{
+          width: 1px;
+          height: 0.2rem;
+          position: absolute;
+          right: 0;
+          top: 0.25rem;
+          background: #ececec;
+        }
+
+    }
+  .ident_01.on a span{color: black}
+}
+
+
+.content{
+  width: 100%;
+  height: 100%;
+  background: #f8f8f8;
+    .nav{
+      width: 100%;
+      height: 0.36rem;
+      background: #ececec;
+        #navId{
+          width: 100%;
+          height: 0.36rem;
+          display: flex;
+          justify-content: space-around;
+            li{
+              width: 0.5rem;
+              height: 100%;
+              font-size: 0.125rem;
+              color: #999;
+              text-align: center;
+              line-height: 0.36rem;
+              float: left;
+            }
+            .all{
+              color: #e13045;
+              border-bottom: 1px solid #e13045;
+            }
+        }
+    }
+    .goods{
+      width: 94.66667%;
+      margin: 0 auto;
+      .sign{
+        font-size: 0.11rem;
+        color: #666666;
+        display: block;
+        margin: 0.15rem 0 0.15rem 0;
+      }
+      .goodsInform{
+        width: 100%;
+        height: 1.43rem;
+        border: 1px solid #dddddd;
+        border-radius: 0.05rem;
+        background: #fff;
+        margin-bottom: 0.1rem;
+        .goodsMiddle{
+          width: 3.33rem;
+          height: 1.21rem;
+          margin: 0.11rem auto 0 auto;
+          position: relative;
+            .goodsDetail{
+              width: 100%;
+              height: 0.91rem;
+              border-bottom:1px dashed #ccc;
+              display: flex;
+              justify-content: space-between;
+                .goodsPic{
+                  width: 2.59rem;
+                  height: 100%;
+                    img{
+                      display: block;
+                      width: 0.73rem;
+                      height: 0.705rem;
+                      float: left;
+                    }
+                    .goodsWord{
+                      width: 1.685rem;
+                      margin-left: 0.17rem;
+                      float: right;
+                        .goosWordSpan{
+                            font-size: 0.14rem;
+                            color: #232326;
+                            display: block;
+                          }
+                        p{
+                          font-size: 0.12rem;
+                          color: #666;
+                          display: block;
+                        }
+                    }
+                }
+                .price{
+                  width: 0.28rem;
+                  height: 100%;
+                    .goodsPrice{
+                      font-size: 0.11rem;
+                      color: #e13045;
+                    }
+                    img{
+                      width: 0.18rem;
+                      height: 0.22rem;
+                      display: block;
+                      margin-top: 0.35rem;
+                      padding-left: 0.1rem;
+                    }
+                }
+            }
+        }
+        .bought{
+          width: 0.64rem;
+          height: 0.2rem;
+          position: absolute;
+          right: 0;
+          bottom: 0;
+            input{
+              width: 0.64rem;
+              height: 0.2rem;
+              border: none;
+              background: #e13045;
+              color: #fff;
+              border-radius: 0.03rem;
+              display: block;
+              line-height: 0.2rem;
+              text-align: center;
+              font-size: 0.11rem;
+            }
+        }
+      }
+
+    }
+}
+
+footer{display: flex;justify-content: space-between;align-items: center;height: 0.5rem;width: 100%;background: #fff;
+  a{width: 25%;text-align: center;display: block;
+    img{width: 0.225rem;height: 0.235rem;margin: 0 auto;display: block;}
+    span{font-size: 0.09rem;color: #cccccc;}
+  }
+}
